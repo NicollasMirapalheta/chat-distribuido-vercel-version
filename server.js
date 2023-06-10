@@ -9,7 +9,7 @@ const serviceAccount = require('./serviceAccountKey.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://chatdistribuido-16a83-default-rtdb.firebaseio.com'
+  databaseURL: ''
 });
 
 const port = process.env.PORT || 3000;
